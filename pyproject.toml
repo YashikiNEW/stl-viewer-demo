@@ -1,0 +1,9 @@
+[project]
+name = "ai-drrive-dev-template"
+version = "0.1.0"
+description = "GitHub Issues駆動の完全自動開発パイプライン + 継続的改善（Kaizen）"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.3",
+]

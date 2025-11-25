@@ -1,0 +1,12 @@
+factory:
+  label: "todo"
+  max_retries: 3
+  enable_kaizen: true  # Kaizen機能の有効/無効
+
+logging:
+  max_bytes: 5242880  # 5MB
+  backup_count: 5
+
+notifications:
+  post_progress: true
+  # webhook_url is read from env var AI_FACTORY_WEBHOOK by default

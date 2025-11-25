@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.claude/factory/logs/
+.claude/worktrees/
+.claude/factory/tmp_*.md
+.env
+
