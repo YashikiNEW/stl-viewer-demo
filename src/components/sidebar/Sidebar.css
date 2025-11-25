@@ -1,0 +1,13 @@
+.sidebar {
+  width: 280px;
+  min-width: 280px;
+  background-color: #1a1a2e;
+  border-left: 1px solid #333;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.sidebar__placeholder {
+  color: #666;
+  font-size: 0.875rem;
+}
