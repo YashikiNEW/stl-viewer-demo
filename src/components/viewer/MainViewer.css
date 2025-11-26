@@ -1,0 +1,13 @@
+.main-viewer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #16213e;
+  overflow: hidden;
+}
+
+.main-viewer__placeholder {
+  color: #666;
+  font-size: 1rem;
+}

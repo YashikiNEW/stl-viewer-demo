@@ -6,3 +6,8 @@ __pycache__/
 .claude/factory/tmp_*.md
 .env
 
+# Node.js
+node_modules/
+dist/
+*.tsbuildinfo
+
