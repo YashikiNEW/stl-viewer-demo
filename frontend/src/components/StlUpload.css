@@ -1,0 +1,25 @@
+.stl-upload-dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 40px 20px;
+  text-align: center;
+  transition: all 0.2s ease;
+  background-color: #fafafa;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.stl-upload-dropzone:hover {
+  border-color: #999;
+  background-color: #f5f5f5;
+}
+
+.stl-upload-dropzone.drag-over {
+  border-color: #4a90d9;
+  background-color: #e8f0fe;
+}
+
+.stl-upload-dropzone.loading {
+  opacity: 0.7;
+  pointer-events: none;
+}
